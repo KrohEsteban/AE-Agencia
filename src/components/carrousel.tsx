@@ -11,7 +11,7 @@ export default function Carrousel() {
     //arreglo con los datos del banner
     const banner = [
         {
-            imagen: '/imagenes/Banner-Marketing-Digital.jpg',
+            imagen: '/imagenes/Banner-Marketing-Digital.webp',
             sobretitulo: 'MARKETING DIGITAL',
             titulo: 'AE AGENCIA',
             descripcion: 'Somos una agencia que ofrece soluciones integrales para tu empresa o negocio, posicionando tu marca y escalando tus ventas de manera sostenible.',
@@ -19,7 +19,7 @@ export default function Carrousel() {
             textolink:'CONTACTAR'
         },
         {
-            imagen: '/imagenes/Nuestros-Servicios-AE-Agencia-Marketing-Digital.jpg',
+            imagen: '/imagenes/Nuestros-Servicios-AE-Agencia-Marketing-Digital.webp',
             sobretitulo: '',
             titulo: 'SERVICIOS',
             descripcion: 'Sabemos que la pandemia mundial de 2020 azotó a prácticamente cada rubro, empresa y negocio. Por esto decidimos ofrecer soluciones integrales en paquetes al mejor precio con resultados inmediatos.',

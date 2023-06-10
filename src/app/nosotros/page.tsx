@@ -18,7 +18,7 @@ export default function Page() {
     <main className="w-full bg-gris pb-20" >
 
       {/* Baner principal, le mandamos la imagen y el titulo, gnera un titulo h1 */}
-      <Banner imagen="/imagenes/Sobre-Nosotros-AE-Agencia.jpg" titulo="NOSOTROS"/>
+      <Banner imagen="/imagenes/Sobre-Nosotros-AE-Agencia.webp" titulo="NOSOTROS"/>
 
 
       <div className='py-20 w-11/12 m-auto'>
@@ -37,7 +37,7 @@ export default function Page() {
           <p>Contáctanos hoy para conocer cómo podemos ayudarte a alcanzar el éxito en línea.</p>
         </div>
         <div className='m-auto'>
-          <Image src="/imagenes/Nuestra-Mision-1024x576.jpg" alt="Imagen sobre nuestra misión"
+          <Image src="/imagenes/Nuestra-Mision-1024x576.webp" alt="Imagen sobre nuestra misión"
           width={800}
           height={800}
           />

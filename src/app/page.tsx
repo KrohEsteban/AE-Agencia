@@ -20,14 +20,14 @@ export default function Page() {
   //arreglo sobre para las cards de la pagina de incio
   const cards = [
     {
-      imagen: '/imagenes/Diseno-Web-Servicios.jpg',
+      imagen: '/imagenes/Diseno-Web-Servicios.webp',
       titulo: 'Desarrollo Web',
       texto: 'Creamos sitios web personalizados que reflejan la identidad de marca de nuestros clientes y los ayudan a destacar en línea.',
       link: '/servicios',
       textlink: 'VER MÁS',
     },
     {
-      imagen: '/imagenes/Publicidad-en-Facebook-Servicios.jpg',
+      imagen: '/imagenes/Publicidad-en-Facebook-Servicios.webp',
       titulo: 'Anuncios en Google & Facebook Ads',
       texto: 'Creamos y ejecutamos campañas publicitarias efectivas en las principales plataformas de publicidad en línea para atraer a más clientes y aumentar tus conversiones.',
       link: '/servicios',
@@ -48,13 +48,13 @@ export default function Page() {
         <Separacion />
         {/* texto de Bill Gates */}
         <div className='flex-col text-center w-11/12 m-auto py-10'>
-          <Image src="/imagenes/quote-1.png" alt="imagen comillas"
+          <Image src="/imagenes/quote-1.webp" alt="imagen comillas"
             width={100}
             height={100}
             className=' w-10 md:w-20 lg:w-32' />
           <p className='text-2xl font-light'>“Habrán dos tipos de negocios en el siglo XXI, los que estén en internet, y los que ya no existan”</p>
           <p className='pt-6 text xl font-bold'>Bill Gates | Cofundador de Microsoft</p>
-          <Image src="/imagenes/quote-1.png" alt="imagen comillas"
+          <Image src="/imagenes/quote-1.webp" alt="imagen comillas"
             width={100}
             height={100}
             className='ml-auto rotate-180 w-10 md:w-20 lg:w-32' />

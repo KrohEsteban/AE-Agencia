@@ -17,12 +17,12 @@ export const metadata = {
   metadataBase: new URL('https://ae-agencia.com/'),
   
   icons: {
-    icon: '/imagenes/cropped-AE.png',
-    shortcut: '/imagenes/cropped-AE.png',
-    apple: '/imagenes/cropped-AE.png',
+    icon: '/imagenes/cropped-AE.webp',
+    shortcut: '/imagenes/cropped-AE.webp',
+    apple: '/imagenes/cropped-AE.webp',
     other: {
-      rel: '/imagenes/cropped-AE.png',
-      url: '/imagenes/cropped-AE.png',
+      rel: '/imagenes/cropped-AE.webp',
+      url: '/imagenes/cropped-AE.webp',
     },
   },
 
@@ -41,7 +41,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-[url(/imagenes/Fondo-Negro-Degradado-2.jpg)] bg-no-repeat bg-cover bg-fixed text-white'>
+      <body className='bg-[url(/imagenes/Fondo-Negro-Degradado-2.webp)] bg-no-repeat bg-cover bg-fixed text-white'>
         <Navigation/>
         {children}
         <Footer/>

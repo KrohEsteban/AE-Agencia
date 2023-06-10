@@ -12,10 +12,10 @@ const [expand, setExpand]= useState(false)
         <>      
           <div className="absolute px-5 top-0 bg-transparent w-full flex justify-between md:justify-around items-center">
             {/* Logo de la empresa */}
-            <Image src='/imagenes/cropped-AE.png' alt='Logo de AE Agencia' 
+            <Link href='/' aria-label="inicio"><Image src='/imagenes/cropped-AE.webp' alt='Logo de AE Agencia' 
             width={150}
             height={150}/>
-
+            </Link>
             {/* Menu */}
         <div className="h-full md:w-2/6">
             {/* boton expandible para mobile */}

@@ -29,21 +29,21 @@ export default function Page() {
 
               <div className='grid grid-cols-2 '>
               <Link href="https://www.facebook.com/ae.agencia">
-                <Image src="/imagenes/Icono-Facebook-AE-Agencia.png" alt="Icono de Facebook"
+                <Image src="/imagenes/Icono-Facebook-AE-Agencia.webp" alt="Icono de Facebook"
                   width={400}
                   height={400}
                   className='mt-auto ml-auto'
                 />
                 </Link>
                 <Link href="https://www.instagram.com/agencia_ae/">
-                <Image src="/imagenes/Icono-Instagram-AE-Agencia-1.png" alt="Icono de Instagram"
+                <Image src="/imagenes/Icono-Instagram-AE-Agencia-1.webp" alt="Icono de Instagram"
                   width={400}
                   height={400}
                   className='mt-auto mr-auto'
                 />
                 </Link>
                 <Link href="https://wa.me/542954298314"> 
-                <Image src="/imagenes/Icono-Whatsapp-AE-Agencia.png" alt="Icono de Whatsapp"
+                <Image src="/imagenes/Icono-Whatsapp-AE-Agencia.webp" alt="Icono de Whatsapp"
                   width={400}
                   height={400}
                   className='mb-auto ml-auto'
@@ -51,7 +51,7 @@ export default function Page() {
                 </Link>
                 
                 <Link href="https://www.linkedin.com/company/ae-agencia/"> 
-                <Image src="/imagenes/—Pngtree—linkedin-icon-logo_3560498.png" alt="Icono de Linkedin"
+                <Image src="/imagenes/—Pngtree—linkedin-icon-logo_3560498.webp" alt="Icono de Linkedin"
                   width={400}
                   height={400}
                   className='mb-auto mr-auto'
