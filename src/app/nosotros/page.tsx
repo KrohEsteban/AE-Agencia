@@ -9,7 +9,7 @@ export const metadata = {
     description:'Agencia de Marketing Digital: Estrategias efectivas para hacer crecer tu negocio en línea',
     url: process.env.URL+'/nosotros',
     siteName: 'AE Agencia',
-    images: '/images/Sobre-Nosotros-AE-Agencia.webp',
+    images: '/imagenes/Sobre-Nosotros-AE-Agencia.webp',
   },
  }
 
