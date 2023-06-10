@@ -12,7 +12,7 @@ export const metadata = {
     description: ' Somos una agencia que ofrece soluciones integrales para tu empresa o negocio, posicionando tu marca y escalando tus ventas de manera sostenible.',
     url: 'https://ae-agencia.com/',
     siteName: 'AE Agencia',
-    images: '../images/Banner-Marketing-Digital.jpg',
+    images: '../images/Banner-Marketing-Digital.webp',
   },
 }
 export default function Page() {
