@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'AE Agencia - Agencia de Marketing Digital',
     description: ' Somos una agencia que ofrece soluciones integrales para tu empresa o negocio, posicionando tu marca y escalando tus ventas de manera sostenible.',
-    url: 'https://ae-agencia.com/',
+    url: process.env.URL,
     siteName: 'AE Agencia',
     images: '/images/Banner-Marketing-Digital.webp',
   },

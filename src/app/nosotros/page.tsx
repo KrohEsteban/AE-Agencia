@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Nosotros - AE Agencia',
     description:'Agencia de Marketing Digital: Estrategias efectivas para hacer crecer tu negocio en línea',
-    url: 'https://ae-agencia.com/nosotros',
+    url: process.env.URL+'/nosotros',
     siteName: 'AE Agencia',
     images: '/images/Sobre-Nosotros-AE-Agencia.webp',
   },

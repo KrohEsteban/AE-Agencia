@@ -14,7 +14,7 @@ export const metadata = {
   siteName: 'AE Agencia - Agencia de Marketing Digital',
   themeColor: '#cf2e2e',  
   referrer: 'origin-when-cross-origin',
-  metadataBase: new URL('https://ae-agencia.com/'),
+  metadataBase: new URL(`${process.env.URL}`),
   
   icons: {
     icon: '/imagenes/cropped-AE.webp',

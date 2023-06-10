@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Servicios - AE Agencia',
     description:'Sabemos que la pandemia mundial de 2020 azotó a prácticamente cada rubro, empresa y negocio. Por esto decidimos ofrecer soluciones integrales en paquetes al mejor precio con resultados inmediatos.',
-    url: 'https://ae-agencia.com/servicios',
+    url: process.env.URL+'/servicios',
     siteName: 'AE Agencia',
     images: '/images/Servicios-AE-Agencia-2.webp',
   },
