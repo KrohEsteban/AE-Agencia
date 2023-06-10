@@ -10,7 +10,7 @@ export const metadata = {
     description:'Sabemos que la pandemia mundial de 2020 azotó a prácticamente cada rubro, empresa y negocio. Por esto decidimos ofrecer soluciones integrales en paquetes al mejor precio con resultados inmediatos.',
     url: 'https://ae-agencia.com/servicios',
     siteName: 'AE Agencia',
-    images: '../../images/Servicios-AE-Agencia-2.webp',
+    images: '/images/Servicios-AE-Agencia-2.webp',
   },
  }
 
