@@ -89,7 +89,7 @@ export default function Page() {
             }) => {
               return (
 
-                <Cards
+                <Cards key={item.titulo}
                   imagen={item.imagen}
                   titulo={item.titulo}
                   texto={item.texto}
