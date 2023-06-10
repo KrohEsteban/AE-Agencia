@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Separacion from "./separacion";
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -11,7 +12,7 @@ export default function Footer() {
 
                 <p>Copyright © 2023 AE Agencia - <strong className="font-bold">Ugarte Lionel Demian</strong> - <Link href="/aviso-de-privacidad" className="font-bold hover:text-cyan-700">Aviso de Privacidad</Link></p>
 
-                <p><a href="http://qr.afip.gob.ar/?qr=in7Azfo4xyMnPQKL6_YayA,," aria-label="Link a los datos de afip" target="_F960AFIPInfo"><img className="m-auto" alt="Imagen de los datos de afip" src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg"></img></a></p>
+                <p><a href="http://qr.afip.gob.ar/?qr=in7Azfo4xyMnPQKL6_YayA,," aria-label="Link a los datos de afip" target="_F960AFIPInfo"><Image className="m-auto" alt="Imagen de los datos de afip" src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" width={200} height={800} /></a></p>
             </div>
         </>
     )
