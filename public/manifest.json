@@ -1,0 +1,67 @@
+{
+    "short_name": "AE",
+    "name": "Agencia AE",
+    "icons": [
+      {
+        "src": "/icon_x48",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x72",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x96",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x128",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x192",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x384",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#cf2e2e",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#cf2e2e",
+    "description": "Somos una agencia que ofrece soluciones integrales para tu empresa o negocio, posicionando tu marca y escalando tus ventas de manera sostenible.",
+    "screenshots": [
+      {
+        "src": "/icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+     
+    ]
+  }
