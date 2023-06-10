@@ -34,14 +34,17 @@ const [expand, setExpand]= useState(false)
         </div>
         </div>
         {/* navegacion formato mobile */}
-        <nav className={expand?"flex w-full md:hidden":"hidden"}>
-            <ul className="flex-col w-full m-auto fixed top-28 right-0 bg-black/75">
+     
+            <nav className={expand?"flex w-full md:hidden":"hidden"}>
+            <ul className="flex-col w-full m-auto absolute top-28 right-0 bg-black/75">
                 <Link className="w-full m-auto p-0" href='/'><li className="p-6 border-y border-white  hover:text-cyan-600 focus:text-cyan-600  text-center">Inicio</li></Link>
                 <Link className="w-full m-auto" href='/nosotros'><li className="p-6  border-b border-white hover:text-cyan-600 focus:text-cyan-600 text-center">Nosotros</li></Link>
                 <Link className="w-full m-auto" href='/servicios'><li className="p-6  hover:text-cyan-600 focus:text-cyan-600 text-center">Servicios</li></Link>
                 <Link className="w-full m-auto" href='/contactos'><li className="p-6  border-y border-white hover:text-cyan-600 focus:text-cyan-600 text-center">Contactos</li></Link>
             </ul>
         </nav>
+        
+        
         </>
 
     )
